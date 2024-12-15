@@ -1,9 +1,5 @@
 :root {
 
-    .TridactylOwnNamespace {
-        background: none !important;
-    }
-    
     --wavefunction-background: #201f21;
     --wavefunction-foreground: #d2dbe3;
     --wavefunction-current-line: #18171b;
