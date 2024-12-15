@@ -200,7 +200,7 @@ Use the color theme on the `:help` page.
 
 .TridactylOwnNamespace .hljs-title,
 .TridactylOwnNamespace .hljs-comment {
-  color: var(--wavefunction-foreground) !important;
+  color: var(--wavefunction-black) !important;
 }
 
 /* white line thingy */
