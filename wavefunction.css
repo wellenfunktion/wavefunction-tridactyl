@@ -76,12 +76,12 @@
 
   /* URL Style */
   --tridactyl-url-text-decoration: none;
-  --tridactyl-url-fg: var(--wavefunction-green);
+  --tridactyl-url-fg: var(--wavefunction-foreground);
   --tridactyl-url-bg: none;
   --tridactyl-url-cursor: pointer;
 
   /* Handle the selected URL's color */
-  --tridactyl-photon-colours-accent-1: var(--wavefunction-green);
+  --tridactyl-photon-colours-accent-1: var(--wavefunction-foreground);
 
   /* Option Focused */
   --tridactyl-of-fg: var(--wavefunction-foreground);
@@ -120,8 +120,8 @@
   --tridactyl-container-color-purple: var(--wavefunction-purple);
 }
 
-.TridactylOwnNamespace {
-  background: none !important;
+html.TridactylOwnNamespace {
+    background: none !important; /* Remove unwanted background */
 }
 
 /*
