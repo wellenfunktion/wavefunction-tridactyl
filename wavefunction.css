@@ -204,8 +204,3 @@ Use the color theme on the `:help` page.
 }
 
 /* white line thingy */
-
-html, body {
-    margin: 0 !important;
-    padding: 0 !important;
-}
