@@ -205,24 +205,6 @@ Use the color theme on the `:help` page.
 
 /* white line thingy */
 
-
-/*
-html, body {
-    background: var(--wavefunction-black) !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-*/
-/*
-
-
-#main-container {
-    background: var(--wavefunction-background) !important;
-}
-
-*/
-
 .TridactylOwnNamespace #cmdline-container {
     min-height: 2em; /* Enough to accommodate the title and input line */
     max-height: 2em; /* Prevent resizing */
