@@ -120,6 +120,10 @@
   --tridactyl-container-color-purple: var(--wavefunction-purple);
 }
 
+.TridactylOwnNamespace {
+  background: none !important;
+}
+
 /*
 # Private Windows
 
