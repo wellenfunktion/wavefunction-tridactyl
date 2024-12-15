@@ -204,3 +204,7 @@ Use the color theme on the `:help` page.
 }
 
 /* white line thingy */
+
+#main-container {
+    background: var(--wavefunction-black) !important;
+}
