@@ -198,9 +198,9 @@ Use the color theme on the `:help` page.
   color: var(--wavefunction-yellow) !important;
 }
 
-.TridactylOwnNamespace .hljs-title,
+/* .TridactylOwnNamespace .hljs-title, */
 .TridactylOwnNamespace .hljs-comment {
-  color: var(--wavefunction-black) !important;
+  color: var(--wavefunction-foreground) !important;
 }
 
 /* white line thingy */
