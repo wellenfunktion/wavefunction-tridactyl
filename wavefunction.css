@@ -214,3 +214,46 @@ html, body {
 #main-container {
     background: var(--wavefunction-background) !important;
 }
+
+.TridactylOwnNamespace #cmdline-container {
+    min-height: 2em; /* Enough to accommodate the title and input line */
+    max-height: 2em; /* Prevent resizing */
+    display: flex;   /* Ensure title and input stay aligned */
+    align-items: center; /* Align vertically */
+    background: var(--wavefunction-background) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden; /* Prevent any visual overflow */
+}
+
+.TridactylOwnNamespace #cmdline-title {
+    height: 1em; /* Lock the height of the title */
+    line-height: 1em;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    flex-shrink: 0; /* Prevent it from shrinking when container is resized */
+}
+
+.TridactylOwnNamespace #cmdline-title {
+    visibility: visible; /* Keep it always present */
+    opacity: 1;          /* If needed, transition it with opacity instead of removing it */
+    transition: opacity 0.2s ease-in-out; /* Smooth appearance */
+}
+
+.TridactylOwnNamespace #cmdline-title.hidden {
+    opacity: 0; /* Make it invisible without removing it */
+    visibility: hidden; /* Optional */
+}
+
+.TridactylOwnNamespace #cmdline-container {
+    background: var(--wavefunction-background) !important;
+    border: none; /* Ensure no unexpected borders create artifacts */
+    box-shadow: none; /* Remove shadows that may cause flickering */
+}
+
+.TridactylOwnNamespace #cmdline-container,
+.TridactylOwnNamespace #cmdline-title {
+    margin: 0 !important;
+    padding: 0 !important;
+}
