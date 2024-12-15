@@ -202,3 +202,11 @@ Use the color theme on the `:help` page.
 .TridactylOwnNamespace .hljs-comment {
   color: var(--wavefunction-foreground) !important;
 }
+
+/* white line thingy */
+
+html, body, .TridactylOwnNamespace {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
