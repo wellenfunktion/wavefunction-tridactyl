@@ -205,9 +205,13 @@ Use the color theme on the `:help` page.
 
 /* white line thingy */
 
-#main-container, .TridactylOwnNamespace {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    border-top: 0 !important;
-    background-color: var(--wavefunction-black) !important;
+html, body {
+    background: var(--wavefunction-black) !important;
+    color: var(--wavefunction-black) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#main-container {
+    background: var(--wavefunction-black) !important;
 }
