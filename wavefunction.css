@@ -1,6 +1,6 @@
 :root {
   --wavefunction-background: #201f21;
-  --wavefunction-foreground: #d2dbe3;
+  --wavefunction-foreground: #272b34;
   --wavefunction-current-line: #18171b;
   --wavefunction-comment: #767f87;
   --wavefunction-black: #272b34;
@@ -124,10 +124,9 @@
 # Private Windows
 
 Mode Indicator: This has a white background by default, which didn't work so
-well with the Dracula foreground color (#f8f8f2).
+well with the foreground color (#f8f8f2).
 
-Icon Color: The default black SVG icon color doesn't contrast enough with the
-Dracula background color.
+Icon Color: The default black SVG icon color doesn't contrast enough with the background color.
 */
 
 .TridactylPrivate {
@@ -171,7 +170,7 @@ Gutoskey, Ellen. “The Smart—and Scientific—Reason Freddy Krueger’s
 /*
 # Tridactyl Help Page
 
-Use the Dracula color theme on the `:help` page.
+Use the color theme on the `:help` page.
 */
 
 .TridactylOwnNamespace .tsd-flag {
